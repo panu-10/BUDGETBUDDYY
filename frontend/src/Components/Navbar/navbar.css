@@ -1,0 +1,157 @@
+.sidebar {
+  height: 800px;
+  width: 300px;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: rgb(239, 230, 231);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 25px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Added box shadow for depth */
+  border: 2px solid #FFFFFF;
+
+}
+.sidebar h1{
+  text-align: left;
+  font-size:2rem;
+}
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sidebar button {
+  background-color: transparent; /* Changed background to transparent */
+  color: #444; /* Changed text color */
+  border: none;
+  padding: 10px;
+  text-align: left;
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  font-size: 20px;
+  padding-left: 10px;
+  flex: 1;
+  /* text-align: center; */
+}
+/* 
+.sidebar button:hover {
+  background-color: #f0f0f0;
+} */
+
+.sidebar-footer {
+  margin-top: auto;
+  padding-top: 10px; /* Added padding to align with content */
+}
+
+.sidebar-footer button {
+  background-color: transparent; /* Changed background to transparent */
+  color: #444;/* Changed text color */
+  border: none;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: left;
+  width: calc(100% - 20px); /* Adjusted width to account for padding */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+
+
+.sidebar-button {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.sidebar-button button{
+  white-space: nowrap;
+}
+.sidebar-button:hover{
+  background-color:transparent;
+}
+.sidebar-button button:hover{
+  background-color:transparent;
+}
+
+.sidebars:hover{
+  background-color:transparent;
+}
+
+.sidebars button:hover{
+  background-color:transparent;
+} 
+.sidebars {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 10px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 200px;
+}
+
+
+.sidebar-icon {
+  width: 50px; /* Adjust icon size */
+  height: 50px;
+}
+
+.sidebar-text {
+  flex: 1; /* Allow text to take remaining space */
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  /* padding-top: 10px; */
+}
+
+.sidebar-link {
+  text-decoration: none;
+}
+.sidebar-icon1{
+  width: 48px; /* Adjust icon size */
+  height: 48px;
+}
+
+.sidebar-footer {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-footer img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.sidebar-footer button {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 25px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.sidebar-footer button:hover {
+  background-color: transparent;
+}
